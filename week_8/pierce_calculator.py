@@ -5,10 +5,15 @@
 #Description: Assignment 8.3 Python in Action
 
 
-a=45
-b=10
+def add(firstNumber, secondNumber):
+    return firstNumber + secondNumber
 
+def subtract(firstNumber, secondNumber):
+    return firstNumber - secondNumber
 
-print("a + b =" , a+b)
-print("a - b =" , a-b)
-print("a / b =" , a/b)    
+def divide(firstNumber, secondNumber):
+    return firstNumber / secondNumber
+
+print(add(10, 45))
+print(subtract(45, 10))
+print(divide(45, 10))
